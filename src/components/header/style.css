@@ -1,0 +1,289 @@
+
+
+.headerRoot{
+    background: linear-gradient(180deg,rgba(3,18,43,.5),rgba(3,18,43,0));
+    position: relative;
+    z-index: 20;
+    min-height: 76px;
+    width: 100%;
+}
+
+.headerContainer{
+    height: 100%;
+    width: 100%;
+    padding: 0.25rem 1rem;
+}
+
+.headerWrapper{
+    position: relative;
+    margin-left: 6rem;
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerHamburgerWrapper{
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    display: flex;
+    border-radius: 9999px;
+    background-color: rgb(255 255 255/0.1);
+    padding: 0.25rem;
+    vertical-align: middle;
+}
+
+
+.headerHamburger{
+    width: 24px;
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255),var(--defaultOpacity);
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .3s;
+}
+
+.headerMainNavWrapper{
+    height: 3.5rem;
+}
+
+.headerLogo{
+    position: absolute;
+    left: 50%;
+    top: 1.25rem;
+    margin-left: -84px;
+}
+
+.logo_link__UAM9Q{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.headerMainNav{
+    position: relative;
+    margin-left: 2.5rem;
+    align-self: stretch;
+}
+
+.headerMainNavItems {
+    display: none;
+    height: 100%;
+    flex: 1 1 0%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.headerMainNavLinks{
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: rgba(var(--textPrimary),var(--defaultOpacity));
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .3s;
+}
+
+.accountActions {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 1.5rem;
+    justify-self: end;
+}
+
+.headerTicket {
+    display: none;
+    font-size: 20px;
+}
+.accountHeaderTicketActions {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: .875rem;
+    text-transform: none;
+    letter-spacing: 0;
+    text-decoration-line: none;
+}
+
+
+.app-header_loginButtonMobile__UxvwI {
+    display: none;
+}
+
+.accountHeaderTicketActions {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: .875rem;
+    text-transform: none;
+    letter-spacing: 0;
+    text-decoration-line: none;
+}
+
+
+.app-header_loginButtonMobile__UxvwI {
+    display: none;
+}
+.accountHeaderTicketActions {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: .875rem;
+    text-transform: none;
+    letter-spacing: 0;
+    text-decoration-line: none;
+}
+
+
+.buttonPlain{
+    display: inline-block;
+    font-size: .875rem;
+    text-transform: none;
+    border: none;
+    letter-spacing: 0;
+    text-decoration-line: none;
+    padding: 0!important;
+    background-color: transparent!important;
+    overflow: visible;
+    color: white;
+    border-radius: 9999px;
+    text-align: center;
+    line-height: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+.button_textWrapper__v9u0E{
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+    font-weight: 700;
+}
+
+
+.app-header_genericAvatar__pXavD{
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.app-header_mobileNav__E8m94{
+    display: none;
+}
+
+.app-header_mobileNavItems__qeCBA{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 0.75rem;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    font-size: 1.75rem;
+}
+.headerMainNavLinks{
+    text-transform: uppercase;
+    color: rgba(var(--textPrimary),1);
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .3s;
+}
+
+
+.app-header_mainNavLinkActive__MyECl {
+    color: rgba(var(--actionAccent),1);
+    border-bottom: 1px solid white;
+}
+
+
+
+@media (min-width: 768px){
+    .headerRoot {
+        min-height: 100px;
+    }
+    .headerContainer {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .headerLogo {
+        top: 1rem;
+        margin-left: -112px;
+    }
+}
+
+.headerMobile{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 0 14px;
+}
+
+@media (min-width: 1024px){
+    .headerMobile{
+        display: none;
+    }
+    .app-header_mainNavLinkActive__MyECl {
+        border-bottom-width: 1px;
+        border-bottom-color: hsla(0,0%,100%,.4);
+        padding-bottom: 1px;
+        color: rgba(var(--textPrimary),var(--defaultOpacity));
+    }
+
+    .headerMainNavItems {
+        display: flex;
+    }
+
+    .headerMainNavWrapper {
+        display: flex;
+    }
+
+    .headerHamburgerWrapper {
+        display: none;
+    }
+
+    .headerLogo {
+        position: static;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .accountActions {
+        position: relative;
+    }
+
+    .app-header_mainNavLinkActive__MyECl {
+        border-bottom-width: 1px;
+        border-bottom-color: hsla(0,0%,100%,.4);
+        padding-bottom: 1px;
+       
+        color: rgba(var(--textPrimary),1);
+    }
+}
+
+@media (min-width: 1280px){
+    .headerMainNavItems {
+        gap: 1.75rem;
+    }
+
+    .headerTicket {
+        display: block;
+    }
+}
+@media (max-width: 768px){
+    .headerContainer{
+        display: none;
+    }
+}

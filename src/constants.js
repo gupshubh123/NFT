@@ -1,0 +1,1 @@
+export const LISTING_URL = `https://api.prod.rock-palisade-352518.com/marketplace/listings/search?includeMinutes=false&language=en-UK&listingStatus=active&pageSize=9&sortBy=latestCreatedAt&sortDirection=desc&`

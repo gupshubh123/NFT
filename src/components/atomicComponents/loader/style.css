@@ -1,0 +1,18 @@
+.loaderContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.loaderCSS{
+    animation: spinrotate 1s linear infinite;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    animation-duration: 2s;
+    display: inline-block;
+}
+
+@keyframes spinrotate {
+    to {
+        transform: rotate(1turn)
+    }
+}

@@ -1,0 +1,71 @@
+
+
+:root {
+    
+    --defaultOpacity: 0.1;
+    --actionTertiary: 17,27,58;
+    --bg: 2,15,42;
+    --scrollPosition: 0;
+    --scrollLimit: 0;
+    --footerHeight: 0;
+    --midnight: 3,19,44;
+    --blue200: 5,14,42;
+    --blue250: 17,27,58;
+    --blue300: 26,45,104;
+    --blue500: 10,132,255;
+    --pink: 233,60,172;
+    --pinkDark: 157,19,109;
+    --red: 233,60,60;
+    --yellow: 254,243,227;
+    --green: 0,213,143;
+    --purple: 93,16,242;
+    --skyBlue: 108,167,243;
+    --actionAccent: 233,60,172;
+    --actionLink: 255,255,255;
+    --actionLinkHover: 0,184,255;
+    --actionPrimary: 10,132,255;
+    --actionPrimaryHover: 26,45,104;
+    --actionPrimaryContrastText: 255,255,255;
+    --actionSecondary: 26,45,104;
+    --actionSecondaryHover: 26,45,104;
+    --actionSecondaryContrastText: 255,255,255;
+    --actionTertiary: 17,27,58;
+    --actionTertiaryHover: 26,45,104;
+    --actionTertiaryContrastText: 255,255,255;
+    --actionDisabled: 26,45,104;
+    --actionDisabledContrastText: 94,117,186;
+    --bg: 2,15,42;
+    --bgCard: 10,25,53;
+    --gradientAngle: 100deg;
+    --rainbowGradient: linear-gradient(var(--gradientAngle),#e100c1 0%,#e60068 18.46%,#4b50ff 48.96%,#15a8fe 61.46%,#062ff9 100%);
+    --fadedGradient: linear-gradient(90deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.2) 15%,hsla(0,0%,100%,.2) 75%,hsla(0,0%,100%,0)) 1;
+    --textPrimary: 255,255,255;
+    --textSecondary: 168,173,184;
+    --textTertiary: 82,91,113;
+    --textDisabled: 92,99,122;
+    --textWarn: 197,118,0;
+    --borderInput: 26,45,104;
+    --border: 53,72,130;
+    --borderPrimary: 10,132,255;
+    --error: 233,60,60;
+    --warn: 254,243,227;
+    --price: 0,213,143;
+  }
+
+body, html {
+    margin: 0;
+    position: relative;
+    font-family: 'Montserrat';font-size: 16px;
+    background-color: rgba(var(--bg),1);
+    color: rgba(var(--textPrimary),1);
+    scroll-behavior: smooth; 
+}
+a {
+  color: rgba(255,255,255),0.1;
+  text-decoration: inherit;
+}
+menu, ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

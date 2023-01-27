@@ -1,0 +1,22 @@
+.searchPageContainer{
+    margin: 0 6em;
+    color: white;
+    position: relative;
+}
+
+.searchPageLoaer{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .searchPageContainer{
+        margin: 0 2em;
+    }
+    .container{
+        display: block;
+    }
+}
